@@ -1,8 +1,25 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GST Calculator
 
-Currently, two official plugins are available:
+A simple GST (Goods and Services Tax) calculator built using React. The calculator allows users to input the price per item, item name, quantity, and GST percentage to calculate the total amount including GST.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Input fields for price, item name, quantity, and GST percentage.
+- Calculates total amount including GST.
+- Displays the calculated amount in a user-friendly format.
+- Responsive design with modern UI.
+
+## Installation
+
+### Prerequisites
+
+Before you begin, make sure you have the following installed:
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/GST-Calculator.git
